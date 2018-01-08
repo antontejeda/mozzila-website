@@ -1,13 +1,41 @@
-p {
-  color: red;
-  width:  500px;
-  border: 1px solid black;
+
+h1 {
+  font-size: 60px;
+  text-align: center;
 }
 
-li {
-	color: red;
+p, li {
+  font-size: 16px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
+.quote {
+	color: blue;
+}
+#mainquote {
+	border: 3px solid black;
+}
+
+html {
+  background-color: #00539F;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
 }
 
 h1 {
-	color: #53a910;
+  margin: 0;
+  padding: 20px 0;    
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
 }
